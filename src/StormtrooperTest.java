@@ -6,8 +6,8 @@ class StormtrooperTest {
 
     @Test
     void initializer(){
-        Stormtrooper trooper = null;
         assertEquals(0, Stormtrooper.getCount());
+        Stormtrooper trooper = null;
         assertEquals(null,trooper);
         trooper = new Stormtrooper();
         assertEquals(Stormtrooper.class, trooper.getClass());

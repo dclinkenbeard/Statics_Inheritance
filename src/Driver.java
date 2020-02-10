@@ -54,6 +54,7 @@ public class Driver {
         }
 
 //        Try moving line 8 from Stormtrooper to line 5 of trooper.
+//        Did it work?
 //        Once your done with that, add a constructor to Flametrooper to increment COUNT
 
 //        Now look at the two test files. StormtrooperTest and FlametrooperTest
