@@ -71,7 +71,8 @@ public class Driver {
              2. What is the difference between a static and non-static object?
              Answer:
 
-             3.
+             3.What methods do Stormtrooper and Flametrooper inherit from Trooper?
+             Answer:
          */
 
     }
