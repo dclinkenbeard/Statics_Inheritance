@@ -14,10 +14,11 @@ public class Driver {
         /* This is something interesting. We are creating a type of List but
          * initializing it to a type of ArrayList.
          * This works because ArrayList implements List (and many other things)
+         * More detail on this later.
          */
         List<Stormtrooper> stormtroopers = new ArrayList<>();
 //      Try uncommenting the line below and see what happens. (remember ctrl+/ or cmd+/ will uncomment/comment things)
-//        List<Stormtrooper> troopersList = new List<>();
+//        List<Stormtrooper> troopersList = new List<>(); // we will need to Import the List class.
 
         Stormtrooper fn2187 = new Stormtrooper();
         stormtroopers.add(fn2187);
@@ -34,6 +35,7 @@ public class Driver {
         List<Trooper> troopers = new ArrayList<>();
 
         //This is a foreach loop, in Java we call these 'enhanced for loops'
+//        Essentially it is saying for all Stormtrooper objects in the List stormtroopers do something
         for(Stormtrooper s : stormtroopers){
             troopers.add(s);
         }
@@ -58,7 +60,19 @@ public class Driver {
 //        Once your done with that, add a constructor to Flametrooper to increment COUNT
 
 //        Now look at the two test files. StormtrooperTest and FlametrooperTest
-//        Uncomment all the tests and run them...
+//        There are additional instructions in Flametrooper as well.
+//        Uncomment all the tests from Flametrooper and run them...
+
+        /*
+            Type your answers to the following questions in this document
+             1. What does it mean to instantiate an object?
+             Answer:
+
+             2. What is the difference between a static and non-static object?
+             Answer:
+
+             3.
+         */
 
     }
 }

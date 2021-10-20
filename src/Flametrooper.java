@@ -10,8 +10,6 @@ public class Flametrooper {
     //value is 15 or better...
 
 
-    @Override
-    public String toString() {
-        return "this is a flame trooper";
-    }
+    //Right click and select Generate, then pick toString.
+
 }
